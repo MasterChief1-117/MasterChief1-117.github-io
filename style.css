@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-image: url(imagenes/lofi-desk-illustration_950633-1526.avif);
+    background-repeat:repeat ;
+    background-size: 100%;
+}
+/*NAV*/
+.header{
+    background: linear-gradient(to right, #3333cc 0%, #993399 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    width: 5px 10%;
+    box-shadow: 0 0 5px white, 0 0 25px rgb(255, 21, 197);
+
+}
+/*NAV*/
+
+/*h1*/
+.header h1{
+    justify-content:left
+}
+
+
+/*LOGO NAV*/
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 110px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+/*LOGO NAV*/
+
+/*LINK NAV*/
+.header .nav-link li{
+    display: inline-block;
+    padding: 0 20px;
+}
+/*IMAGENES*/
+
+.foto2{
+    width: 300px;
+    height: 300px;
+    border: 8px groove #a718b4;
+    border-radius: 10% / 50%;
+    margin-left: 500px;
+    box-shadow: 0 0 10px white, 0 0 40px rgb(255, 61, 239);
+}
+/* Contenido */
+.titu .quien{
+    font-family:"Kelly Slab", sans-serif ;
+    font-size: xx-large ;
+    font: weight 1000px;  ;
+    background: linear-gradient(to right, #3333cc 0%, #993399 100%);
+    border-style: double; 
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+    box-shadow: 0 0 5px white, 0 0 30px rgb(255, 61, 239);
+}
+.titu:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.3s;
+
+}
+
+.Part1{
+    background: linear-gradient(to right, #3333cc 0%, #993399 100%);
+    font-family: "Kelly Slab", sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    border-style: double;
+    text-align: center;
+    width: 650px;
+    height: 90px;
+    align-items: center;
+    margin-left: 320px;
+    box-shadow: 0 0 5px white, 0 0 30px rgb(255, 61, 239);
+
+}
+
+.Part2{
+    background: linear-gradient(to right, #3333cc 0%, #993399 100%);
+    font-family: "Kelly Slab", sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    text-align: center;
+    width: 800px;
+    height: 100px;
+    align-items: center;
+    margin-left: 245px;
+    border-style: double;
+    box-shadow: 0 0 5px white, 0 0 30px rgb(255, 61, 239);
+}
+
+.Part3{
+    background: linear-gradient(to right, #3333cc 0%, #993399 100%);
+    font-family: "Kelly Slab", sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    width: 800px;
+    height: 130px;
+    align-items: center;
+    margin-left: 245px;
+    border-style: double;
+    box-shadow: 0 0 5px white, 0 0 30px rgb(255, 61, 239);
+}
+/*Contenido1 cierra*/
+
+/*Habilidades o aptitudes*/
+.titu2{
+    font-family: "Kelly Slab", sans-serif;
+    font-weight: 800;
+    font-size: xx-large;
+    text-align: center;
+    color: #993399;
+}
+
+.APPTITUDE{
+    width: 60px;
+    height: 40px;
+    margin: auto;
+    cursor: pointer;
+}
+.APPTITUDE:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.Skill{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kelly Slab", sans-serif;
+    font-size: larger;
+    color: #993399;
+}
+
+.contenedor2{
+    position: relative;
+    background: #230845;
+    width: 1200px;
+    padding: 20px 10px;
+    opacity: 70%;
+    border: groove 5px #993399;
+    box-shadow: 0 0 5px white, 0 0 5px white;
+    margin-left: 50px;
+}
+
+.contenedor2 .Skill{
+    margin: 20px 0px;
+    
+}
+
+.contenedor2 .Skill .p{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor2 .Skill .progreso-bar{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #999;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 5px 0;
+    box-shadow: 0 0 15px white, 0 0 30px rgb(214, 48, 255);
+}
+.contenedor2 .Skill .progreso-bar::before{
+    content: '';
+    position: absolute;
+    width:var(--wth);
+    height: 100%;
+    background:#862b86 ;
+    box-shadow: 0 0 5px white, 0 0 15px rgb(214, 48, 255);
+}
+
+/*Habilidades y apptitudes cierra*/
+
+/*ESTUDIOS*/
+.Estudios{
+    font-family:"Kelly Slab", sans-serif ;
+    font-size: xx-large ;
+    font: weight 1000px;  ;
+    background: linear-gradient(to right, #4c2c70 0%, #993399 100%);
+    border-style: double; 
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    margin-left: 480px;
+    box-shadow: 0 0 5px white, 0 0 10px rgb(220, 161, 231);
+}
+
+.Estudios:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.3s;
+
+}
+.ExtraCatedras{
+    font-family:"Kelly Slab", sans-serif ;
+    font-size: x-large ;
+    font: weight 1000px;  ;
+    background: linear-gradient(to right, #3333cc 0%, #993399 100%);
+    border-style: double; 
+    text-align:justify;
+    padding: 20px;
+    width: 900px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    box-shadow: 0 0 5px white, 0 0 10px rgb(220, 161, 231);
+}
+
+.Academicos{
+    font-family:"Kelly Slab", sans-serif ;
+    font-size: x-large ;
+    font: weight 1000px;  ;
+    background: linear-gradient(to right, #3333cc 0%, #993399 100%);
+    border-style: double; 
+    text-align:justify;
+    padding: 20px;
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    box-shadow: 0 0 5px white, 0 0 10px rgb(217, 57, 245); 
+}
+
+/*FOTEEER*/
+.info{
+font-family:"Kelly Slab", sans-serif ;
+font-size: x-large ;
+font: weight 1000px;  ;
+background: linear-gradient(to right, #3333cc 0%, #993399 100%);
+border-style: double; 
+text-align:center;
+padding: 20px;
+width: 900px;
+height: 200px;
+margin-left: 200px;
+box-shadow: 0 0 5px white, 0 0 20px rgb(217, 57, 245);
+}
+
+.info2{
+    font-family:"Kelly Slab", sans-serif ;
+    font-size: x-large ;
+    font: weight 1000px;  ;
+    background: linear-gradient(to right, #3333cc 0%, #993399 100%);
+    border-style: double; 
+    text-align:center;
+    padding: 20px;
+    width: 900px;
+    height: 200px;
+    margin-left: 200px;
+    box-shadow: 0 0 5px white, 0 0 20px rgb(217, 57, 245);
+    }
+    
